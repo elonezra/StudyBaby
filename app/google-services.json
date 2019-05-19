@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "639972370401",
+    "firebase_url": "https://studybaby-7f526.firebaseio.com",
+    "project_id": "studybaby-7f526",
+    "storage_bucket": "studybaby-7f526.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639972370401:android:013b8c6d612fd2d4",
+        "android_client_info": {
+          "package_name": "com.example.elon.studybaby"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639972370401-1g38r6qj9lg0ei8e201knqo6glp6to4v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.elon.studybaby",
+            "certificate_hash": "a7052aad2cb07c7edfa2192e54f167cddd253466"
+          }
+        },
+        {
+          "client_id": "639972370401-6jgmv8avvh49elstok8ieqtdsrdpgahe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEwnjKihnpiBgQuWzfKOmTc_IYRPwbgJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639972370401-6jgmv8avvh49elstok8ieqtdsrdpgahe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
