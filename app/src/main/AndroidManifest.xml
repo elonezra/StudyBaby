@@ -9,7 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".loginPackage.searchBySubject"></activity>
+        <activity android:name=".loginPackage.tableSearch" />
         <activity android:name=".loginPackage.MainActivityLoginScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".loginPackage.MenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

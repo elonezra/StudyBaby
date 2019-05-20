@@ -8,6 +8,13 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
+import com.google.firebase.database.ValueEventListener;
+
+
 import com.example.elon.studybaby.R;
 
 public class MainActivityLoginScreen extends AppCompatActivity {
@@ -43,6 +50,7 @@ public class MainActivityLoginScreen extends AppCompatActivity {
     private void validate(String userName, String userPassword){
     if((userName.equals("admin"))&&(userPassword.equals("1234"))){
         Intent intent = new Intent(MainActivityLoginScreen.this, MenuActivity.class);
+        intent.putExtra("username", userName);
         startActivity(intent);
     }else{
         counter--;
