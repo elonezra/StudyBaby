@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".loginPackage.searchBySubject"></activity>
+        <activity android:name=".loginPackage.searchByFloor"></activity>
+        <activity android:name=".loginPackage.searchBySubject" />
         <activity android:name=".loginPackage.tableSearch" />
         <activity android:name=".loginPackage.MainActivityLoginScreen">
             <intent-filter>
